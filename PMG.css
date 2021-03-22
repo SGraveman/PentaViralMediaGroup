@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=ABeeZee);
+
+body {margin: 0;
+background-color:#afafaf;}
+
+
+.maintitle {
+    color:#000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:"ABeeZee";
+    font-size:250%;
+
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+  overflow: hidden;
+  background-color:#252525;
+  border-radius:40px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:"ABeeZee";
+  font-size:110%;
+  
+}
+
+ul.topnav li a:hover:not(.active) {background-color:#5e5e5e;}
+ul.topnav li a.active {background-color: #100e5a;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
